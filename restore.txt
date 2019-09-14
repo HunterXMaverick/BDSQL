@@ -1,0 +1,12 @@
+@echo off
+ 
+echo encontrado
+cd C:\xampp\mysql\bin\
+
+mysql.exe -h localhost -u root prueba1 < F:\xd\Nuevo\nuevo1.sql
+
+
+
+
+pause
+@cls

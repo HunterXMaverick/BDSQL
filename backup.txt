@@ -1,0 +1,11 @@
+@echo off
+ 
+echo encontrado
+cd C:\xampp\mysql\bin\
+
+mysqldump.exe -h localhost -u root empresa > C:\Users\HunterX\Desktop\base
+
+
+
+pause
+@cls
